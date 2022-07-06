@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Site 404 - Resposivo</title>
+
+
+  <!--=================== BOXICONS =====================-->
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+
+  <!--=================== CSS =====================-->
+
+
+</head>
+<body>
+
+  <!--=================== HEADER ==================-->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        ERROR404
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link" (click)="linkAction()">Menu</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link" (click)="linkAction()">Sobre</a>
+          </li>
+          <li class="nav__item" >
+            <a href="#" class="nav__link" (click)="linkAction()">Contato</a>
+          </li>
+        </ul>
+        <div class="nav__close" id="nav-close">
+          <i class='bx bx-x'></i>
+        </div>
+      </div>
+
+      <!-- Toggle button-->
+      <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+      </div>
+    </nav>
+  </header>
+
+
+  <!--=================== MAIN ==================-->
+  <main class="main">
+
+    <!--================ HOME ===================-->
+    <section class="home">
+      <div class="home__container container">
+        <div class="home__data">
+          <span class="home__subtitle">Error 404</span>
+          <h1 class="home__title">Hey Buddy</h1>
+          <p class="home__description">
+            Utilizando animações com<br>@keyframs.
+          </p>
+          <a href="#" class="home__button">Menu</a>
+        </div>
+
+        <div class="home__img">
+          <!--Lembrar que o diretorio raiz é src-->
+          <img src="assets/image/ghost-img.png" alt="">
+          <div class="home__shadow"></div>
+        </div>
+      </div>
+
+      <footer class="home__footer">
+        <span>(24)38494-32</span>
+        <span>|</span>
+        <span>williangrillo@outlook.com.br</span>
+      </footer>
+    </section>
+  </main>
+
+
+</body>
+</html>
