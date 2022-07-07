@@ -7,3 +7,4 @@
   <li>Contém animações CSS</li>
 <ul>
 
+<p>Para rodar o projeto, basta dar npm i e logo depois ng serve -o</p>
